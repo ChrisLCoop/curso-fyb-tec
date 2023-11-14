@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cambio-imagenes{
+    background-image: url(./img/gato-con-botas.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation-name: imagenes;
+    animation-iteration-count: 3;
+    animation-duration: 10s;
+    width: 800px;
+    height: 500px;
+}
+
+.bolita{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+
+@keyframes imagenes{
+    15%{
+        background-image: url(./img/chistesgatunos.jpg);
+    }
+
+    50%{
+        background-image: url(./img/gato-runrun.jpg);
+    }
+
+    75%{
+        background-image: url(./img/gatunos-mistery.jpg);
+    }
+}

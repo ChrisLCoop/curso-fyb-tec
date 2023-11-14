@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    margin: 30px;
+    width: 100%;
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    padding: 10px 0;
+}
+
+img{
+    width: 25%;
+    height: 10%;
+    margin: 0 10px;
+}
+
+h2{
+    padding: 10px 0 10px 0;
+}
+ul{
+    padding: 10px 0 10px 30px;
+}
+
+li{
+    padding: 5px 0;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+.home{
+    color: blue;
+}
+
+.servicios{
+    color: magenta;
+}
+
+.l-1{
+    color: red;
+}
+.l-2{
+    color: blue;
+}
+.l-3{
+    color: gold;
+}
+.l-4{
+    color: rgb(55, 160, 125);
+}
+
+.portafolio{
+    color: greenyellow;
+}
+
+.ln-1{
+    color: gold;
+}
+.ln-2{
+    color: rgb(139, 26, 26);
+}
+.ln-3{
+    color: rgb(13, 13, 165);
+}
+.ln-4{
+    color: green;
+}
+
+.texto-esquina{
+    padding: 1250px 0 0 0;
+    color: red;
+}
+
+header{
+    height: 100px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+}
+
+span{
+    color: white;
+    padding-left: 450px;
+}
+
+.cajita{
+    margin: 0;
+    padding: 0;
+}
+
+.caja{
+    width: 70%;
+    margin: auto;
+    height: 900px;
+    background-color: rgb(174, 165, 154);
+    display: flex;
+    padding-top: 100px;
+}
+
+.rec-1{
+    background-color: greenyellow;
+    width: 50%;
+    height: 100px;
+    
+}
+
+.rec-2{
+    background-color: blue;
+    width: 50%;
+    height: 100px;
+}
+
+.caja-footer{
+    height: 100px;
+    background-color: red;
+}

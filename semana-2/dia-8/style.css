@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.ball{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50%;
+    animation-name: pelota;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+/*
+
+@keyframes pelota{
+    
+    0%{
+        transform: translateX(0px);
+        
+    }
+    
+    20%{
+        
+        transform: translateX(300px);
+        
+    }
+    
+
+    40%{
+        
+        transform: translateY(300px);
+    }
+    
+
+    60%{
+        transform: translate(300px, 300px);
+        
+        
+    }
+
+    80%{
+        transform: translateY(600px);
+        
+    }
+
+    100%{
+        transform: translate(0px, 0px);
+        
+    }
+    
+}
+*/
+
+.lineas{
+    text-align: center;
+    width: 300px;
+    margin: auto;
+    font-size: 24px;
+    white-space: nowrap;
+    border-right: 2px solid black;
+    transform: translateY(-50%);
+    overflow: hidden;
+ }
+ .texto-animado-dos {
+
+    animation: texto-animado-dos 5s steps(144) 1s normal both,
+    cursor 0.5s steps(50) infinite normal ;
+    animation-iteration-count: infinite;
+    font-weight: 700;
+    color: red;
+ }
+
+
+
+ @keyframes texto-animado-dos{
+    /*
+    from{
+        width: 0px;
+    }to{
+        width: 700px;
+    }*/
+    0%{
+        width: 0px;
+    }
+
+    25%{
+        width: 200px;
+        color: blue;
+    }
+
+    50%{
+        width: 400px;
+        color: greenyellow;
+    }
+
+    75%{
+        width: 550px;
+        color: brown;
+    }
+
+    100%{
+        width: 700px;
+        color: yellow;
+    }
+}
+
+@keyframes cursor{
+    from{
+        border-right-color: red;
+    }to{
+        border-right-color: transparent;
+    }
+}
